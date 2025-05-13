@@ -24,7 +24,7 @@ async def classify(item: Item):
     result = classifier(
         item.input,
         candidate_labels=candidate_labels,
-        hypothesis_template="Este termo de pesquisa está relacionado com produtos do nosso portfólio como software de faturação e POS da Vendus {}."
+        hypothesis_template="Este termo de pesquisa está relacionado com produtos do nosso portfólio como software de faturação e POS da Cegid Vendus {}."
     )
 
     return {
